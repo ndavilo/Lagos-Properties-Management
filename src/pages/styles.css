@@ -7,14 +7,15 @@
 .dashboard-content-container {
     margin: 1em;
     background-color: white;
-    border: none;
+    border: 1px solid red; /* Updated this line to add a thin red border */
     border-radius: 10px;
     padding: 1em;
     display: flex;
     flex-direction: column;
-    gap:25px;
+    gap: 25px;
     overflow: auto;
 }
+
 .dashboard-content-header {
     display: flex;
     flex-direction: row;
