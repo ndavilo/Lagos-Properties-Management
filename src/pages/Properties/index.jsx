@@ -72,6 +72,7 @@ function Orders () {
                         <th>VALUE</th>
                         <th>TEAM/SECTION</th>
                         <th>STATUS</th>
+                        <th>OPTIONS</th>
                     </thead>
 
                     {orders.length !== 0 ?
@@ -94,6 +95,12 @@ function Orders () {
                                     <td>{order.value}</td>
                                     <td>{order.team}</td>
                                     <td>{order.status}</td>
+                                    <td>
+                                        <div className="option-buttons">
+                                            <button className="edit-button">Edit</button>
+                                            <button className="delete-button">Delete</button>
+                                        </div>
+                                    </td>
                                 </tr>
                             ))}
                         </tbody>

@@ -153,3 +153,20 @@ td span {
     font-weight: 700;
     border-color: #FFFFFF;
 }
+
+.option-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.option-buttons button {
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button {
+    color: red;
+}
